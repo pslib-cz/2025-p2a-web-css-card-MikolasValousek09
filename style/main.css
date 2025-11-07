@@ -11,7 +11,7 @@
         --text: #515959;
         --border: #59de0c;
     }
-    .main {
+    .main {        
         display: flow-root;
     }
 }
@@ -38,6 +38,7 @@
 
   }
 
+  
     .card__subtitle {
         font-size: ;
         color: var(--text);
@@ -45,6 +46,7 @@
 
 
     }
+
 
     .text__green {
         font-weight: 700;
@@ -54,12 +56,14 @@
 
     }
 
+
     .card__pricing {
-        margin-top: 3em;
+        margin-top: 2.5em;
         font-size: ;
         color:var(--text) ;
 
     }
+
 
     .price__color {
         font-weight: 700;
@@ -69,26 +73,36 @@
 
     }
 
+
     .price__date {
         color: var(--primary);
         font size: ;
-
+        font-weight: 700;
     }
 
 
     .btn {
+        margin-top: 5em;
         color: ;
-        font-size: ;
+        font-size:1em ;
         font-weight: ;
     }
 
     .btn__color {
-
-
-
+        color: var(--primary);
+    
+    
     }
 
 
+    .li__check {
+        list-style-image: url("../images/check.svg"); 
+    }
+
+
+    .li__cross {
+        list-style-image: url("../images/cross.svg"); 
+    }
 
 
 
