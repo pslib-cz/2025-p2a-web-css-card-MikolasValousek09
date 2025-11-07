@@ -13,6 +13,7 @@
     }
     .main {        
         display: flow-root;
+
     }
 }
 
@@ -33,7 +34,7 @@
     
     .card__title {
         color: var(--secondary);
-        font-size:1.8em ;
+        font-size:2em ;
         font-weight: 700;
 
   }
@@ -59,9 +60,15 @@
 
     .card__pricing {
         margin-top: 2.5em;
-        font-size: ;
+        font-size:1em ;
         color:var(--text) ;
 
+    }
+
+
+    .card__pricing__alternative {
+        color: var(--text);
+        font-size:0.9em ;
     }
 
 
@@ -82,27 +89,51 @@
 
 
     .btn {
-        margin-top: 5em;
-        color: ;
-        font-size:1em ;
-        font-weight: ;
+        display: inline-block;
+        margin-top: 2em;
+        
     }
 
+
     .btn__color {
-        color: var(--primary);
-    
-    
+        color:white ;
+        background-color: var(--primary);
+        padding-left: 8em;
+        padding-right:8em ;
+        padding-bottom:0.6em ;
+        padding-top:0.6em ;
+        border-radius: 0.4rem;
+        font-weight: 700;
+    }
+
+
+    .ul__stats {
+        margin-top: 3em;
+    }
+
+
+
+
+    .li__text {
+        color: var(--text);
     }
 
 
     .li__check {
-        list-style-image: url("../images/check.svg"); 
+        margin-top: 0.5em;
+        list-style-image: url("../images/check.svg");
+        margin-left: 1em; 
     }
 
 
     .li__cross {
+        margin-top: 0.5em;
         list-style-image: url("../images/cross.svg"); 
+        margin-left: 1em;
     }
+
+
+
 
 
 
