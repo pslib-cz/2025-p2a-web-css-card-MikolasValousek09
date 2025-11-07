@@ -30,5 +30,66 @@
 
 @layer components {
     /* todo components */
- 
+    
+    .card__title {
+        color: var(--secondary);
+        font-size:1.8em ;
+        font-weight: 700;
+
+  }
+
+    .card__subtitle {
+        font-size: ;
+        color: var(--text);
+
+
+
+    }
+
+    .text__green {
+        font-weight: 700;
+        color: var(--primary);
+        font-size: ;
+
+
+    }
+
+    .card__pricing {
+        margin-top: 3em;
+        font-size: ;
+        color:var(--text) ;
+
+    }
+
+    .price__color {
+        font-weight: 700;
+        font-size: 1.5em ;
+        color:var(--primary) ;
+
+
+    }
+
+    .price__date {
+        color: var(--primary);
+        font size: ;
+
+    }
+
+
+    .btn {
+        color: ;
+        font-size: ;
+        font-weight: ;
+    }
+
+    .btn__color {
+
+
+
+    }
+
+
+
+
+
 }
