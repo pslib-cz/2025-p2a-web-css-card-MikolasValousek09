@@ -9,7 +9,7 @@
         --secondary: #59bc1c;
         --denied: #ff8686;
         --text: #515959;
-        --border: #59de0c;
+        --border:rgb(229, 229, 229);
     }
     .main {        
         display: flow-root;
@@ -26,12 +26,24 @@
         max-width: 21em;
         margin: 1rem; /* without scaling */
         padding: 1em;
+        border-style: solid;
+        border-color: var(--border);
+        border-radius: 1rem;
+        border-width: 1px;
     }
 }
 
 @layer components {
+  
     /* todo components */
     
+    .card__border {
+        border: 
+
+
+    }
+
+
     .card__title {
         color: var(--secondary);
         font-size:2em ;
@@ -91,19 +103,19 @@
     .btn {
         display: inline-block;
         margin-top: 2em;
-        
+        width: 100%;
+        height: 3em;
     }
 
 
     .btn__color {
         color:white ;
         background-color: var(--primary);
-        padding-left: 8em;
-        padding-right:8em ;
-        padding-bottom:0.6em ;
-        padding-top:0.6em ;
+        height: 3em;
+        width: 100%;
         border-radius: 0.4rem;
         font-weight: 700;
+        border: none;
     }
 
 
